@@ -123,7 +123,7 @@ def add_IPI(subj: pd.DataFrame):
         new_col = 'IPI'+str(i+1)
         subj[new_col] = subj[col2] - subj[col1]
 
-    subj['IPI0'] = subj['RT']
+    # subj['IPI0'] = subj['RT']
 
 
 def finger_melt_IPIs(subj: pd.DataFrame) -> pd.DataFrame:
